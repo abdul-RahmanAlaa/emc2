@@ -1,0 +1,43 @@
+{
+  "register": [
+    {
+      "first_name": "Abdulrhman",
+      "last_name": "Alaa",
+      "email": "abdoalaaabdo17@gmail.com",
+      "password": "Abdoalaaabdo17@",
+      "phone": "01100204937",
+      "id": 1
+    },
+    {
+      "first_name": "Mohamed",
+      "last_name": "mansour",
+      "email": "ahmed7@gmail.com",
+      "password": "Ahmed.2003",
+      "phone": "01552615757",
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "first_name": "Abdulrhman",
+      "last_name": "Alaa",
+      "email": "abdoalaaabdo17@gmail.com",
+      "password": "Abdoalaaabdo17@",
+      "phone": "01100204937",
+      "id": 1
+    },
+    {
+      "first_name": "Mohamed",
+      "last_name": "mansour",
+      "email": "ahmed7@gmail.com",
+      "password": "Ahmed.2003",
+      "phone": "01552615757",
+      "id": 2
+    }
+  ],
+  "post-create-image": [
+    {
+      "id": 1
+    }
+  ]
+}
