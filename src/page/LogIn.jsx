@@ -3,6 +3,7 @@ import useAuth from "../hooks/useAuth";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
 import axiosInstance from "../Api/axios";
+import Cookies from "js-cookie";
 
 const LOGIN_URL = "login";
 
@@ -46,13 +47,14 @@ const Login = () => {
 
       const accessToken = response?.data?.accessToken;
 
+      Cookies.set("accessToken", accessToken, { expires: 7 });
+
       setAuth({ email, pwd, accessToken });
       setEmail("");
       setPwd("");
 
       // navigate(from, { replace: true });
       navigate("from, { replace: true }");
-
     } catch (err) {
       if (!err?.response) {
         setErrMsg("No Server Response");
