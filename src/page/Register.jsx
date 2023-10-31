@@ -93,9 +93,9 @@ const Register = () => {
     setErrMsg("");
   }, [firstName, lastName, email, pwd, matchPwd, phone]);
 
-  useEffect(() => {
-    userRef.current.focus();
-  }, []);
+  // useEffect(() => {
+  //   userRef.current.focus();
+  // }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
